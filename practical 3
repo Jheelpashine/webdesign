@@ -1,0 +1,66 @@
+< ! DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+h1{
+background-color: yellowgreen;
+text-align: center;
+}
+h2{
+background-color: red;
+table{
+background-color : blanchedalmond;
+--
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GCOEN</title>
+</head>
+<body>
+<h1 allign="center">Goverment College Of Engineering Nagpur</h1>
+<p><b><i>About college :< /i></b> is a college that started in the academic year 2016-17.
+It is affiliated to the Rashtrasant Tukadoji Maharaj Nagpur University, Nagpur<br>
+<a href="https://www.gcoen.ac.in/">home page</a></p>
+<h2>Courses</h2>
+<list>
+<ul>
+<li>computer science</li>
+<li>electronics and telecomunications</li>
+<li>electrical enginnering</li>
+<li>mechanical enginnering</li>
+<li>civil enginnering</li>
+</ul>
+</list><br>
+<h2>Key People</h2>
+<table border="4">
+<thead>
+<tr>
+<th>Name</th>
+<th>Position</th>
+<th>Image</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dr. R.P Borkar</td>
+<td>Principle</td>
+<td> ,< img src="C: \Users \pares\Downloads \princi. jpg"> </td>
+</tr>
+<tr>
+<td>Dr. Vinod Mohitkar</td>
+<td>Director</td>
+<td><img src="C: \Users\pares \Downloads \prac3.png"></td>
+</tr>
+</tbody>
+</table>
+<h2>Reviews</h2>
+<img src="C: \Users \pares \Downloads \prac1.2.jfif">
+<iframe width="250" height="250" src="https ://www.youtube.com/embed/hbuC64bcoKk?si=3WZBV4BSM6rwli9N"
+title="YouTube video player" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h2>Contact Us</h2>
+Email id :< a href="principal. gcoenagpur@dtemaharashtra.gov.in">email us</a><br>
+Phone Number :07103295226(P) 07103295220(0)<br>
+</body>
+</html>
