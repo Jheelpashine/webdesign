@@ -1,0 +1,86 @@
+< ! DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>website</title>
+<style>
+#box{
+float : left;
+width : 150px;
+height:150px;
+border-radius :5;
+padding: 2em;}
+body{
+background-color: black;
+text-align: center;
+}
+h1{
+text-align: center;
+background-color: aquamarine;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+p{font-size:large;
+color: bisque;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif; }
+h2 button{
+color : navy;
+background-color : darkkhaki;
+text-align: center;
+font-size:2em;}
+. container{
+display: flex;
+justify-content: center;
+gap: 15px;
+}
+#item img{
+background-color: azure;
+width: 250px;
+height:250px;}
+figcaption{
+color: black;
+text-align: center;
+background-color: azure;
+font-size: 18px; }
+#box1{
+background-color: honeydew;
+text-align: center;
+align-content: center;}
+h3{
+color: blanchedalmond;
+font-family: Arial, Helvetica, sans-serif; }
+</style>
+</head>
+<body>
+<h1>Artistic<br>(the world of Art)</h1>
+<img id="box" src="C: \Users \pares \Desktop \wdt prac\logo.png">
+<p>Art is a profound form of human expression that transcends time, culture, and language.
+It encompasses a vast array of mediums, from painting and sculpture to photography, digital works, and performance.
+Art allows individuals to explore emotions, ideas, and the complexities of the human experience, offering both an
+introspective journey for the creator and a window into different worlds for the viewer. Whether through bold brushstrokes,
+intricate details, or abstract forms, art invites us to see the world through new perspectives,
+sparking creativity and evoking deep emotional responses. It has the power to challenge societal norms,
+reflect cultural histories, and even inspire change. Ultimately, art is a universal language that speaks
+to the soul, uniting people across generations and geographies with its timeless ability to captivate,
+provoke, and inspire .< /p>
+<h2>Our art Products</h2>
+<div class="container">
+<div id="item"><img src="C : \Users\pares \Desktop\eye1. jpg">
+<figcaption>Rs.900</figcaption></div>
+<div id="item"><img src="https ://images. javatpoint. com/definition/images/art-definition.png">
+<figcaption>Rs. 700</figcaption></div>
+<div id="item"><img src="https://rukminim2.flixcart.com/image/850/1000/kobspe80/painting/a/x/m/14-fap-195-frizzy-arts-original-imag2ta2bjbq7etp.jpeg?q=90&crop=false">
+<figcaption>Rs. 1000</figcaption></div>
+<div id="item"><img src="https://5.imimg.com/data5/ANDROID/Default/2021/1/YY/QA/ME/117124341/product-jpeg-500x500.jpg">
+<figcaption>Rs.800</figcaption>
+</div>
+</div><br>
+<button>Byu Now</button><br><br>
+<h3>Contact us</h3>
+<div id="box1"><b>Phone no. :-</b>2034856204<br>
+<b>Email id :-</b>artistic@gmail.com<br>
+<b>Address : -</b>Pl no. 20; Mahdi Bagh ,, Residency Rd, Sadar, Nagpur, Maharashtra</div>
+</body>
+</html>
+
