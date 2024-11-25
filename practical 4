@@ -1,0 +1,30 @@
+< ! DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Browser</title>
+<style>
+div{ background-color: yellow;
+height:200px;width:300px;
+padding : 18px;
+border: 10px solid black;
+margin: 20px; }
+</style>
+</head>
+<body>
+<h1>
+CSS Information
+</h1>
+<P>
+<div>CSS (Cascading Style Sheets) is a stylesheet language used to control the layout and appearance
+of HTML elements on a web page. It allows developers to define styles for elements such as colors, fonts, spacing,
+positioning, and more. CSS can be written inline within HTML, embedded in the <style> tag, or linked
+externally in a separate file. By separating content (HTML) from presentation (CSS), it makes web design more
+efficient and maintainable. CSS also enables responsive design, ensuring websites look great across different
+devices and screen sizes.
+</div>
+</p>
+<script src="script.js"></script>
+</body>
+</html>
