@@ -1,0 +1,71 @@
+<! DOCTYPE html>
+<html>
+<head>
+<title>laptop</title>
+</head>
+< body>
+<h1>Laptop Information</h1>
+<p><b><i><u>Recommended Laptops</u></i></b><br><br>
+1 .< b>Acer aspire 5 :< /b>The Acer Aspire 5 is a budget-friendly laptop featuring up to an AMD Ryzen 5
+or Intel Core i3 processor. < br>
+2. < b>Lenovo Ideapad 3 :< /b>The Lenovo Ideapad 3 is an affordable laptop equipped with AMD Ryzen 5
+or Intel Core i3 processors. < br>
+3. < b>ASUS vivoBook 15 :< /b>The ASUS VivoBook 15 is a budget-friendly laptop that offers Intel Core i3
+or AMD Ryzen 3 processors .< br><br></p>
+<b><i><u>Top Two Laptops</u></i></b><br><br>
+<h3>1.MacBook Air 15</h3><br>
+<img width="200" src="C : \Users\pares\Downloads\mb. jpg"></img>
+<iframe width="250" height="200" src="https://www.youtube.com/embed/HeMIZC2rkMo?si=LmhGjuecVYM82T3g"
+title="YouTube video player" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+<h3>2.Dell XPS 13</h3>
+<img width="200" src="C: \Users\pares\Downloads\dell. jpg"></img>
+<iframe width="250" height="200" src="https ://www.youtube.com/embed/kKHWOAlMkFo?si=iv07ud152s8X4HHd"
+title="YouTube video player" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
+<h4>Laptop information table: < /h4><br>
+<table border="4">
+<thead>
+<tr>
+<th>Brand</th>
+<th>Processor</th>
+<th>size</th>
+<th>RAM</th>
+<th>Storage</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MacBook Air M2</td>
+<td>Apple M2 chip</td>
+<td>13.6 inch</td>
+<td>8 GB</td>
+<td>256 GBSSD</td>
+<td>$1099</td>
+</tr>
+<tr>
+<td>Dell XPS 13</td>
+<td>Intel core 17</td>
+<td>13.4 inch</td>
+<td>8 GB</td>
+<td>256 GBSSD</td>
+<td>$999</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="5" align="center">cheaper : < /td>
+<td>Dell is cheaper</td>
+</tr>
+</tfoot>
+</table><br><br>
+<footer>buy laptops from the given link: < br>
+www.laptopsco.com
+</footer>
+</body>
+</html>
+</body>
+</html>
