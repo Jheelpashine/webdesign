@@ -1,0 +1,38 @@
+< ! DOCTYPE html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<h1>registration form</h1>
+< form>
+<p>
+<b><u>USER DETAILS</u></b><br><br>
+<i><b>Name :< /i></b><input type="text" name="name" id="name"><br><br>
+<i><b>Gender: < /b><i><br>
+<input type="radio" name="gender" id="male">male</input>
+<input type="radio" name="gender" id="female">female</input><br><br>
+<i><b>Address :< /b></i><textarea></textarea><br><br>
+<i><b>Pincode :< /b></i><input type="number" name="pincode" id="pincode"><br>|
+<list>
+<ul>
+<li>mumbai=400001</li>
+<li>pune=410045</li>
+<li>nagpur=440001</li>
+<li>delhi=110001</li>
+</ul>
+</list>
+<i><b>Email_id :< /i></b><input type="email" name="email id" id="email"><br><br>
+<b><u>PAYMENT DETAILS</u></b><br><br>
+<i><b>Card Type :< /b></i><select_name="Card type" id="Card type">
+<option value="master card">master card</option value>
+<option value="debit card">debit card</option value>
+<option value="visa">visa</option value>
+<option value="rupay">rupay</option value></select><br><br>
+<i><b>Card number :< /b></i><input type="number"><br><br>
+<i><b>Card expiry date :< /b></i><input type="date"><br><br>
+<i><b>CVV :< /b></i><input_type="password"><br><br></p>
+<input type="submit" value="Pay Now" id="Pay Now">
+</form>
+</body>
+</html>
