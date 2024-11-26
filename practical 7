@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <style>
+      body{
+        background-color: darkred;
+  padding: 25px;
+  text-align: center;
+  color: azure;
+  font-family: serif;
+  font-size: 22px;
+}
+.title,h2,h3 {
+	color:aliceblue;
+  background-color: black;
+}
+.logo{
+  height:150px;
+  width:150px; 
+  float: left;
+  padding: 15px;
+  top: 15px;
+  bottom:15px;
+  right: 15px;
+  background-color:cyan;
+}
+.container{
+  display: flex;
+  gap: 15px;
+  text-align: center;
+}
+.item,img{
+  height: 300px;
+  width: 300px;
+}
+#box{
+  display: grid;
+  grid-template-columns: auto;
+  gap:10px;
+  color: beige; 
+  left: 37%;
+  position: relative;
+  margin-top: 0px;
+}
+topnav input[type=text] {
+  float: left;
+  padding: 10px;
+  border:rgb(191, 216, 198);
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+ figcaption{
+  background-color:cornsilk;
+  color:darkmagenta;
+  font-size:20px;
+ }
+.discount{
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  body {
+   font-size: 16px; 
+        }
+ .logo {
+  width: 100px;
+  height: 100px;
+        }
+
+ .container {
+ flex-direction: column;
+        }
+
+ .item {
+  width: 100%;}
+        }
+ @media screen and (max-width: 480px) {
+  body {
+  font-size: 14px;
+        }
+
+  .logo {
+   width: 80px;
+   height: 80px;
+        }
+
+  .container {
+  flex-direction: column;
+   text-align: center;
+        }
+
+ .item {
+ width: 90%; 
+        }
+
+ #box {
+   left: 0;
+   margin-top: 10px;
+        }
+
+   h2 {
+  font-size: 18px;
+        }
+  .topnav input[type="text"] {
+   width: 80%;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+      <h1 class="title">The Clothery</h1>
+      <img class="logo" src="C:\Users\Lenovo\Desktop\wdt\logo.png"></img>
+      <a href="https://about.com">About us</a><br>
+      <a href="https:/contact.com">Contact us</a>
+      <p>Welcome to The Clothery, where fashion meets
+      comfort and style. We’re dedicated to creating high-quality,
+      trendy clothing that fits every lifestyle. Whether you're looking 
+      for casual wear, office attire, or something for a night out, 
+      we offer versatile pieces that make you feel confident and look your best.</p>
+
+      <div class="topnav">
+        <input type="text" placeholder="Search for products..">
+      </div>
+      <h2>Our Products</h2>
+      <div class="container">
+        <div id="item"><img src="https://m.media-amazon.com/images/I/41pUCnny4hL._AC_UY1100_.jpg">
+         <figcaption>Rs.700</figcaption>
+        </div>
+        <div id="item"><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSCl2SXU803OaV5o5gYRizS7_RIL3Zq2iznvgMG-gulBTgxInAAkAUhyWllzNoeZbexEaoBKpQlnZljyhRSksSi7E5qhruBNnLTSb9Rkq4">
+          <figcaption>Rs.800</figcaption>
+        </div>
+        <div id="item"><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTz8YGkGay0nRzku8SykDfLLulAX6v8EQ-tvZ2C8UEg4lleTv6y_6pJ5FvjfD7Y3p-uSVrwWDL-3RCVmij6aH6A9X_m0oHn-s7UNER_LOo5hCqw0-tIA8Lu">
+          <figcaption>Rs.600</figcaption>
+       </div>
+      </div><br>
+      <h3>About Discount</h3>
+      <p class="discount"><b><u>*Listen to the audio for discount*</u></b></p>
+      <div id="box">
+     <video id="video"controls src="C:\Users\Lenovo\Downloads\coverr-fashion-hunt-at-outdoor-market-1080p.mp4"
+              height="300" width="300">
+     </video>
+      <audio id="audio"controls src="C:\Users\Lenovo\Downloads\ElevenLabs_Text_to_Speech_audio.mp3" type="mp3">
+        listen to the audio for discount!!!
+      </audio>
+    </div>
+     
+  </body>
+</html>
