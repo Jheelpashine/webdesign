@@ -1,0 +1,107 @@
+<! DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Feedback Form</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background-color:bisque;
+color: #333;
+margin: 0;
+padding: 20px;
+}
+h1
+color: azure;
+text-align: center;
+background-color: black; }
+.container {
+max-width: 1200px;
+margin: auto;
+padding: 20px;
+background-color:aliceblue;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+a
+color: cornflowerblue;
+text-decoration: none; }
+a: hover,
+a: focus {
+color: cornflowerblue;
+text-decoration: underline;| }
+label {
+display: block;
+margin-bottom: 8px;
+background-color: darkviolet;
+color: antiquewhite; }
+input[type="text"],
+input[type="email"],
+textarea {width: 100%;
+padding: 10px;
+border: 1px solid #ddd;
+border-radius: 4px;
+margin-bottom: 20px;
+input[type="submit"],
+button {
+background-color: green;
+color: white;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 4px;
+input[type="submit"] : hover,
+button: hover {
+background-color: greenyellow;
+}
+.skip-to-content {
+position: absolute;
+top: 10px;
+background-color: forestgreen;
+left: 10px;
+color: white;
+padding: 10px; }
+.skip-to-content: focus {
+background-color : green;
+</head>
+</style>
+<body>
+<a href="#main-content" class="skip-to-content">Skip to content</a>
+<header>
+</header>
+<h1>Feedback Form</h1>
+<div class="container">
+<main id-"main-content">
+<h2>Your feedback matters !</h2>
+<p>Feel free to give your suggestion on the event :</p>
+<form action="/submit-form" method="POST" aria-labelledby="contact-form">
+<div>
+<input type="text" id="name" name="name" required aria-required="true" placeholder="Enter your name">
+<label for="name">Your Name :</label>
+</div>
+<div>
+<label for="email">Your Email :</label>
+<input type="email" id="email" name="email" required aria-required="true" placeholder="Enter your email">
+</div>
+<div>
+<label for="message">Your feedback on event: </label>
+<textarea id="message" name="message" rows="5" required aria-required="true"
+placeholder="Enter your message"></textarea>
+</div>
+<div>
+<label for="message">Your suggestion for improvement : </label>
+<textarea id="message" name="your suggestion" rows="S" required aria-required="true"
+placeholder="Enter your suggestion"></textarea>
+</div>
+<input type="submit" value="Send Message">
+</form>
+<div>
+<button onclick="alert( 'Button clicked!')" aria-label="Click to see message">
+</div>
+</button>
+Click Me
+</body>
+</div>
+</main>
+</html>
