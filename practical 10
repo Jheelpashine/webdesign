@@ -1,0 +1,127 @@
+HTML CODE:
+<! DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Flora</h1>
+<div class="container">
+<div class="box box1">
+<h3>Black Bat flower</h3>
+<img class="img" src="https://bouqs .com/blog/wp-content/uploads/2022/02/black-bat-flower. jpg"></img>
+<p>It's uncommon to find a black flower. It's extraordinarily rare to come across a dark flower
+as strange looking as the black bat flower. </p></div>
+<div class="box box2">
+<h3>Silk Tree</h3>
+<img class="img" src="https ://bouqs. com/blog/wp-content/uploads/2022/02/silk-tree. jpg"></img>
+<p>Also known as mimosa trees, these small trees produce silky flowers that resemble little pom-poms.
+If that's not enough of a reason to love them, they have a uniquely sweet fragrance. </p></div>
+<div class="box box3">
+<h3>Surprise Lily</h3>
+<img class="img" src="https://bouqs . com/blog/wp-content/uploads/2022/02/surprise-lily.jpg"></img>
+<p>While many plants produce leaves then flower shortly after, surprise lilies do things a bit differently.
+After you place bulbs in the ground, the plants will send up leaves that later die back. < /p></div>
+<div class="box box4">
+<h3>Sea Holly</h3>
+<img class="img" src="https://bouqs . com/blog/wp-content/uploads/2022/02/sea-holly.jpg"></img>
+<p>This genus of plants has spiky blue flowers that look a bit like thistles. The spiky cones are surrounded
+by serrated bracts, giving the flowers a frightening yet alluring appearance. </p></div>
+</div>
+</body>
+</html>
+
+CSS CODE:
+body {
+text-align: center;
+background-color: darksalmon;
+align-items: center;
+body h1 {
+color: bisque;
+background-color: darkmagenta;
+text-align: center;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+container {
+display: flex;
+width: 70%;
+margin: 20px;
+flex-wrap: wrap;
+height: 60vh;
+justify-content: space-between;
+align-content: space-between;
+gap: 5%;
+text-align: center;
+. box {
+width: 40%;
+height: 350;
+border: 4px solid black;
+background-color: black;
+color: antiquewhite;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 4px;
+}
+.box h3 {
+background-color: aliceblue;
+color: darkblue;
+font-family: "Times New Roman", Times, serif;}
+.box .img {
+height: 200px;
+width: 200px;
+background-color: chartreuse;
+margin: 4px;
+padding: 4px;
+}/*# sourceMappingURL=style.css.map */
+
+
+SCSS CODE:
+$mycolor : darkmagenta;
+body{
+text-align: center;
+background-color : darksalmon;
+align-items: center;
+h1{
+color: bisque;
+background-color : $mycolor;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+}
+. container{
+display: flex;
+width: 70%;
+margin: 20px;
+flex-wrap: wrap;
+height : 60vh;
+justify-content: space-between;
+align-content: space-between;|
+gap: 5%;
+text-align: center;
+$smartcolor:black;}
+.box{
+width: 40%;
+height:350;
+border: 4px solid $smartcolor;
+background-color : $smartcolor;
+color: antiquewhite;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding : 4px;
+h3{
+background-color: aliceblue;
+color : darkblue;
+font-family: "Times New Roman', Times, serif;
+}
+. img{
+height:200px;
+width: 200px;
+background-color : chartreuse;
+margin: 4px;
+padding: 4px;}
+}
+
+
